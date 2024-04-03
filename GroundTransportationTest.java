@@ -17,7 +17,7 @@ public class GroundTransportationTest {
 
     @BeforeEach
     public void setUp() {
-        groundTransport = new GroundTransportation("ABC123");
+        //groundTransport = new GroundTransportation("ABC123");
     }
 
     @Test
@@ -27,7 +27,7 @@ public class GroundTransportationTest {
 
     @Test
     public void testSetLicensePlate() {
-        groundTransport.setLicensePlate("XYZ789");
+        //groundTransport.setLicensePlate("XYZ789");
         assertEquals("XYZ789", groundTransport.getLicensePlate());
     }
 

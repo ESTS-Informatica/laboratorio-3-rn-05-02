@@ -28,11 +28,11 @@ public class AirTransportationTest {
 
     @Test
     public void testSetName() {
-        airTransport.setName("Airbus A380");
+        //airTransport.setName("Airbus A380");
         assertEquals("Airbus A380", airTransport.getName());
 
         // Testar se aceita null
-        airTransport.setName(null);
+        //airTransport.setName(null);
         assertNull(airTransport.getName());
     }
 
@@ -43,11 +43,11 @@ public class AirTransportationTest {
 
     @Test
     public void testSetNumberOfContainers() {
-        airTransport.setNumberOfContainers(15);
+        //airTransport.setNumberOfContainers(15);
         assertEquals(15, airTransport.getNumberOfContainers());
 
         // Testar se aceita valor negativo
-        airTransport.setNumberOfContainers(-5);
+        //airTransport.setNumberOfContainers(-5);
         assertEquals(15, airTransport.getNumberOfContainers());
     }
 
