@@ -10,7 +10,7 @@ public class AirTransportation extends Transport {
     
     private String name;
     private int numberOfContainers;
-    private static final double HON = 4.0;
+    private static final double FEES = 4.0;
     
     public AirTransportation(String name, int numberOfContainers) {
         super();

@@ -7,7 +7,7 @@
  */
 public class GroundTransportation extends Transport {
     private String licensePlate;
-    private static final double HON = 3.0;
+    private static final double FEES = 3.0;
     
     public GroundTransportation(String licensePlate) {
         super();

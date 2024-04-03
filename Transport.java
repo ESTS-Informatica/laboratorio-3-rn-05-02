@@ -104,7 +104,7 @@ public class Transport {
         sb.append(String.format("%15s: %5.2f€\n", "Preço", this.price));
         sb.append(String.format("%15s: %4.2f%%\n", "Honorarios", this.fees));
         sb.append(String.format("%15s: %4.2f€\n", "Preço Final", getPriceWithFees()));
-     
+    
         return sb.toString();
     }
 
