@@ -23,15 +23,22 @@ public class GroundTransportation extends Transport {
             this.licensePlate =licensePlate;
         }
     }
-    
-    @Override
-    public String getTransportType() {
-        return "Transporte Terrestre";
-    }
 
     @Override
     public String toString() {
         return super.toString() +
                 String.format("%15s: %s\n", "Matricula", licensePlate);
+    }
+    
+    // Nivel 3
+    @Override
+    public String getTransportType() {
+        return "Transporte Terrestre";
+    }
+    
+    // Nivel 3
+    @Override
+    public double getPriceWithFees() {
+        return getPrice() * (1.0 + (3.0 / 100.0));
     }
 }
